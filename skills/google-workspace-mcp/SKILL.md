@@ -2,7 +2,7 @@
 name: google-workspace-mcp
 description: Google Workspace (Gmail, Drive, Calendar, Docs, Sheets, Slides, Chat, Tasks) via official Google Workspace Remote MCP Servers — supports both Free Standard Tier (Personal Mode) and Paid Scaled Tier across Hermes Agent, Claude Code, Cursor, OpenCode, Codex CLI, and Antigravity.
 version: 1.0.0
-author: Jhom
+author: jhomhermes
 license: MIT
 metadata:
   hermes:

@@ -65,7 +65,7 @@ hermes -p <profile-name> mcp login google-drive --connect-timeout 300
 hermes -p <profile-name> mcp login google-calendar --connect-timeout 300
 ```
 
-> **Custom `HERMES_HOME` / Container Profiles:** If `HERMES_HOME` is exported (for example `HERMES_HOME=/opt/data/profiles/2ai-programmer`), `setup_mcp.py` detects it automatically without needing `--profile`.
+> **Custom `HERMES_HOME` / Container Profiles:** If `HERMES_HOME` is exported (for example `HERMES_HOME=/opt/data/profiles/programmer`), `setup_mcp.py` detects it automatically without needing `--profile`.
 
 ---
 

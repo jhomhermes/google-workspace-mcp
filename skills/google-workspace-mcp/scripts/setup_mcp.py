@@ -780,7 +780,7 @@ def main() -> int:
     parser.add_argument("--write-env", action="store_true", help="Write Client ID/Secret to <HERMES_HOME>/.env")
     parser.add_argument("--client-id", help="Google OAuth Client ID (with isAgent=true)")
     parser.add_argument("--client-secret", help="Google OAuth Client Secret")
-    parser.add_argument("--profile", help="Target Hermes profile name (e.g. default, 2ai-programmer)")
+    parser.add_argument("--profile", help="Target Hermes profile name (e.g. default, programmer)")
     parser.add_argument(
         "--client",
         choices=["hermes", "claude", "cursor", "opencode", "codex", "antigravity"],

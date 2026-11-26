@@ -1,0 +1,41 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Google Cloud & OAuth credentials / tokens
+client_secret*.json
+*client_secret*.json
+*credentials*.json
+google_token*.json
+mcp-tokens/
+*.pem
+*.key
+
+# Agent runtime configs & backups
+config.yaml
+config.yaml.bak
+*.bak
+.claude.json
+mcp.json
+mcp_config.json
+opencode.json
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

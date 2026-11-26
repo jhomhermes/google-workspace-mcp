@@ -1,0 +1,9 @@
+{
+  "name": "google-workspace-mcp",
+  "description": "Google Workspace (Gmail, Drive, Calendar, Docs, Sheets, Slides, Chat, Tasks) via official Remote MCP Servers (Free Standard & Paid Scaled Tiers)",
+  "categories": {
+    "productivity": [
+      "google-workspace-mcp"
+    ]
+  }
+}
